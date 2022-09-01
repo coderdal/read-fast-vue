@@ -1,30 +1,19 @@
 <template>
-  <main>
-    <header>
-      <div class="logo">
-        <a href="#">
-          <img src="assets/images/book_logo.png" alt="Book icon" />
-          Read Fast
-        </a>
-      </div>
-    </header>
-  </main>
+  <header>
+    <div class="logo">
+      <a href="#">
+        <img src="assets/images/book_logo.png" alt="Book icon" />
+        Read Fast
+      </a>
+    </div>
+  </header>
 </template>
 
 <script>
-export default {
-  name: "landingPage",
-};
+export default { name: "appHeader" };
 </script>
 
 <style scoped>
-main {
-  width: 100vw;
-  height: 100vh;
-  background: var(--bg-color);
-  padding: 0 50px;
-}
-
 main header {
   width: 100%;
   height: 100px;
