@@ -64,7 +64,7 @@ export default {
   methods: {
     startReading() {
       if (this.text.length > 20) {
-        console.log(this.text);
+        this.$emit("startReading", this.text);
       }
     },
   },
