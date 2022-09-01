@@ -1,14 +1,23 @@
 <template>
   <div id="app">
-    <h2>lets start</h2>
+    <landing-page />
   </div>
 </template>
 
 <script>
+import LandingPage from "@/components/Landing/Index.vue";
+
 export default {
   name: "App",
-  components: {},
+  components: {
+    LandingPage,
+  },
 };
 </script>
 
-<style></style>
+<style>
+#app {
+  width: 100%;
+  height: 100%;
+}
+</style>
